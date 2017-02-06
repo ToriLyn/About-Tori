@@ -1,0 +1,211 @@
+/*heading*/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 0px 10px 5px 5px;
+  width: 100%;
+}
+
+a {
+text-decoration: none;
+}
+
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+/*Text Style*/
+h1 {
+  font-family: 'Lobster', cursive;
+  margin: 15px 0;
+  font-size: 4em;
+  font-weight: normal;
+  line-height: 0.9em;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  margin: -5px 0 0;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  margin: 20px 0 0;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+a {
+  color: #584B53;
+}
+ 
+body {
+  font-family: 'Lobster', cursive;
+  font-size: 1.3em;
+}
+
+
+/*nav*/
+  nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/*Contact*/
+.contact-info {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 50px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px 0;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+.contact-info li.instagram a {
+  background-image: url('../img/instagram-wrap.png');
+  }
+
+nav a, nav a:visited {
+  color: #584B53;
+}
+
+nav a.selected, nav a:hover {
+  color: purple;
+}
+
+/* site body */
+body {
+  background-color: #E6E6E6;
+  color: #999;
+}
+ /*footer*/
+footer {
+  font-size: 0.9em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #A9A9A9;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+/*header color*/
+header {
+  background: #D8CEF6;
+  border-color: #D8CEF6;
+}
+
+/*About*/
+.baby-photo {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+}
+
+}
+/*Text*/
+p {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 0 auto;
+}
+
+/*home*/
+#wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5%;
+} 
+ /*Main Photo*/
+.profile-photo {
+  
+  border-radius: 25%;
+  max-height: 270px;
+}
+  
+/*Table*/
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+  color: #584B53;
+}
+
+thead th {
+  font-weight: 400;
+  background: #584B53;
+  color: #FFF;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #584B53;
+  color: #fff;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}

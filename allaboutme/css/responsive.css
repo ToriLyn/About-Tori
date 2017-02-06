@@ -1,0 +1,62 @@
+@media screen and (min-width: 480px) {
+
+  /*Two Column Layout*/
+  
+  #primary {
+    width: 15%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 75%;
+    float: right;
+  }
+  
+  #detail {
+    width: 60%;
+    float: left;
+  }
+  
+  #contact {
+    width: 35%;
+    float: right;
+  }
+  
+  
+  /*Food*/
+  
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  
+  /*About*/
+  
+  .profile-photo {
+    float: center;
+    margin: 0 5% 80px 0;
+}
+
+@media screen and (min-width: 660px) {
+  
+/*Header*/
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
